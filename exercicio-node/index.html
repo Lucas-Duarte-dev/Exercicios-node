@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Soma</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <form action="http://127.0.0.1:3333" method="GET">
+          <h1>Calculadora</h1>
+          <div class="input-block">
+            <label>Digite um número</label>
+            <div class="input-field">
+              <input
+                type="text"
+                placeholder="Digite qualquer número"
+                name="first"
+              />
+              <div class="underline"></div>
+            </div>
+          </div>
+
+          <div class="input-block">
+            <label>Operador</label>
+            <select name="option">
+              <option value="soma">Soma</option>
+              <option value="subtracao">Subtração</option>
+              <option value="multiplicacao">Multiplicação</option>
+              <option value="divisao">Divisão</option>
+            </select>
+          </div>
+
+          <div class="input-block">
+            <label>Digite um segundo número</label>
+            <div class="input-field">
+              <input
+                type="text"
+                placeholder="Digite qualquer número"
+                name="last"
+              />
+              <div class="underline"></div>
+            </div>
+          </div>
+          <button>Calcular</button>
+        </form>
+        <img src="./img/math.jpg" alt="Math" />
+      </div>
+    </div>
+  </body>
+</html>
